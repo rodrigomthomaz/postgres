@@ -19,7 +19,6 @@ RUN set -eux; \
 # also create the postgres user's home directory with appropriate permissions
 # see https://github.com/docker-library/postgres/issues/274
 	mkdir -p /var/lib/postgresql; \
-	chmod 777 -R /var/lib/postgresql \
 	chown -R postgres:postgres /var/lib/postgresql
 
 # grab gosu for easy step-down from root
