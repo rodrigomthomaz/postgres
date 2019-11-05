@@ -58,6 +58,7 @@ RUN set -eux; \
 
 RUN mkdir /docker-entrypoint-initdb.d
 
+
 RUN set -ex; \
 # pub   4096R/ACCC4CF8 2011-10-13 [expires: 2019-07-02]
 #       Key fingerprint = B97B 0AFC AA1A 47F0 44F2  44A0 7FCC 7D46 ACCC 4CF8
