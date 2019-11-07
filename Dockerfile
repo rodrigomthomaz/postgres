@@ -35,7 +35,7 @@ RUN set -x \
 	&& chmod +x /usr/local/bin/gosu \
 	&& gosu nobody true \
 	&& apt-get purge -y --auto-remove ca-certificates wget
-#teste2
+#teste3
 # make the "en_US.UTF-8" locale so postgres will be utf-8 enabled by default
 RUN set -eux; \
 	if [ -f /etc/dpkg/dpkg.cfg.d/docker ]; then \

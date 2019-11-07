@@ -167,5 +167,5 @@ if [ "$1" = 'postgres' ]; then
 		echo
 	fi
 fi
-chmod 770 "$PGDATA" 2>/dev/null
+#chmod 770 "$PGDATA" 2>/dev/null
 exec "$@"
